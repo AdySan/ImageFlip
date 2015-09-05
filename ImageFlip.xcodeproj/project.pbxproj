@@ -14,6 +14,8 @@
 		704FE1F319EA2C17002FBE3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704FE1F219EA2C17002FBE3B /* Images.xcassets */; };
 		704FE1F619EA2C17002FBE3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 704FE1F419EA2C17002FBE3B /* LaunchScreen.xib */; };
 		704FE20219EA2C18002FBE3B /* ImageFlipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 704FE20119EA2C18002FBE3B /* ImageFlipTests.m */; };
+		704FE20C19EA2CC9002FBE3B /* hentaigana.png in Resources */ = {isa = PBXBuildFile; fileRef = 704FE20B19EA2CC9002FBE3B /* hentaigana.png */; };
+		704FE20E19EA35DA002FBE3B /* IMG_6341.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 704FE20D19EA35DA002FBE3B /* IMG_6341.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		704FE1FB19EA2C18002FBE3B /* ImageFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		704FE20019EA2C18002FBE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		704FE20119EA2C18002FBE3B /* ImageFlipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFlipTests.m; sourceTree = "<group>"; };
+		704FE20B19EA2CC9002FBE3B /* hentaigana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hentaigana.png; sourceTree = "<group>"; };
+		704FE20D19EA35DA002FBE3B /* IMG_6341.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_6341.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				704FE1E419EA2C17002FBE3B /* ImageFlip */,
 				704FE1FE19EA2C18002FBE3B /* ImageFlipTests */,
 				704FE1E319EA2C17002FBE3B /* Products */,
+				704FE20B19EA2CC9002FBE3B /* hentaigana.png */,
+				704FE20D19EA35DA002FBE3B /* IMG_6341.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +174,7 @@
 				TargetAttributes = {
 					704FE1E119EA2C17002FBE3B = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = EG3WJ73D78;
 					};
 					704FE1FA19EA2C18002FBE3B = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -200,8 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				704FE1F119EA2C17002FBE3B /* Main.storyboard in Resources */,
+				704FE20C19EA2CC9002FBE3B /* hentaigana.png in Resources */,
 				704FE1F619EA2C17002FBE3B /* LaunchScreen.xib in Resources */,
 				704FE1F319EA2C17002FBE3B /* Images.xcassets in Resources */,
+				704FE20E19EA35DA002FBE3B /* IMG_6341.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ImageFlip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ImageFlip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +423,7 @@
 				704FE20719EA2C18002FBE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		704FE20819EA2C18002FBE3B /* Build configuration list for PBXNativeTarget "ImageFlipTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +432,7 @@
 				704FE20A19EA2C18002FBE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
